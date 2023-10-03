@@ -1,0 +1,53 @@
+@keyframes promoBlockIcon {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.promo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  color: white;
+  background-color: #C84D86;
+}
+
+.promo-block img {
+  animation: promoBlockIcon 1s ease-in 0s 1 normal forwards;
+}
+
+.hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media screen and (min-width: 769px) {
+  .only-mobile {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .only-desktop {
+      display: none;
+  }
+}
+
+.icono-disco,
+.rr-logo {
+  width: 20px;
+}
