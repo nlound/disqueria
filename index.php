@@ -81,6 +81,126 @@
   </header>
   <!--Header Mobile-->
 
+  <!-- Hero -->
+  <div class="hero setup-background hero-src">
+    <h2 class="display-3 fw-bold">El archivo de tus momentos</h2>
+    <p>Discos, casettes y vinilos de tus artistas favoritos, al mejor precio y con nuestro sello de atención
+      personalizada</p>
+    <a href="#shop" class="btn btn-light btn-lg rounded-0 align-self-center">Comprar mi música</a>
+  </div>
+  <!-- Hero -->
+
+
+  <!--Cards w/album -->
+  <section>
+    <div id="shop" class="examples-store container my-5">
+      <h3 class="m-0 pb-3 text-center">¿Qué vamos a escuchar hoy?</h3>
+      <p class="text-center">¡Date un paseo por nuestro e-shop! Renovado para que en cuestión de minutos completes tu
+        compra <br> y
+        puedas asegurarte de recibir tu pedido en menos de 24 horas &#9200; <br>Algunas de nuestras
+        ofertas:</p>
+      <div class="album-cards-container">
+        <div class="album-cards">
+          <div class="album-card card rounded-0 mb-3">
+            <img src="images/cards/folklore-ts.jpeg" class="card-img-top rounded-0 img-album-covers"
+              alt="Tapa del disco Folklore de Taylor Swift">
+            <div class="card-shop align-items-center justify-content-center p-4">
+              <h4 class="h5 text-uppercase text-center pb-2">Folklore</h4>
+              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
+                <li class="list-group-item">Taylor Swift</span></li>
+                <li class="list-group-item">$12.000</li>
+                <li class="list-group-item">
+                  <div class="border-bottom align-self-center pb-2">
+                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                  </div>
+                </li>
+              </ul>
+              <p class="m-0 mt-2">Octavo álbum de estudio, se aparta de los sonidos mainstream y más comerciales de los
+                últimos trabajos de
+                la cantante y se destaca por melodías armónicas e introspectivas, una interpretación lírica más
+                trabajada y una utilización más consistente de la instrumentalización (principalmente piano, guitarra,
+                violín y batería).</p>
+            </div>
+          </div>
+          <div class="album-card card rounded-0 mb-3">
+            <img src="images/cards/jitb-jhope.jpg" class="card-img-top rounded-0 img-album-covers"
+              alt="Tapa del disco Jack in the Box de J-Hope">
+            <div class="card-shop align-items-center justify-content-center p-4">
+              <h4 class="h5 text-uppercase text-center pb-2">Jack in the Box</h4>
+              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
+                <li class="list-group-item">J-Hope</span></li>
+                <li class="list-group-item">$15.700</li>
+                <li class="list-group-item">
+                  <div class="border-bottom align-self-center pb-2">
+                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                  </div>
+                </li>
+              </ul>
+              <p class="m-0 mt-2">Debut álbum del rapero surcoreano J-Hope cuyo concepto se basa en la historia de la
+                Caja de Pandora, se discuten
+                temáticas de pasión, ambición, humanidad, insguridad, sexualidad, éxito y ansiedad sobre el futuro.
+                Principalmente
+                influenciado por sonidos de old-school hip-hop, el album también contiene sonidos de pop, grunge y R&B.
+              </p>
+            </div>
+          </div>
+          <div class="album-card card rounded-0 mb-3">
+            <img src="images/cards/sinister-bs.jpg" class="card-img-top rounded-0 img-album-covers"
+              alt="Bolsa de café Catalina">
+            <div class="card-shop align-items-center justify-content-center p-4">
+              <h4 class="h5 text-uppercase text-center pb-2">If you're feeling sinister</h4>
+              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
+                <li class="list-group-item">Belle and Sebastian</span></li>
+                <li class="list-group-item">$19.200</li>
+                <li class="list-group-item">
+                  <div class="border-bottom align-self-center pb-2">
+                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                  </div>
+                </li>
+              </ul>
+              <p class="m-0 mt-2">El álbum es ampliamente considerado como un clásico del género indie pop, y ha
+                obtenido un culto entre los aficionados del grupo siendo el punto más alto de la carrera de Belle and
+                Sebastian. El líder del grupo, Stuart Murdoch, ha declarado en entrevistas que este es probablemente su
+                mejor colección de canciones.</p>
+            </div>
+          </div>
+          <div class="album-card card rounded-0 mb-3">
+            <img src="images/cards/thisiswhy-paramore.jpeg" class="card-img-top rounded-0 img-album-covers"
+              alt="Bolsa de café Etiopía">
+            <div class="card-shop align-items-center justify-content-center p-4">
+              <h4 class="h5 text-uppercase text-center pb-2">This is why</h4>
+              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
+                <li class="list-group-item">Paramore</span></li>
+                <li class="list-group-item">$13.100</li>
+                <li class="list-group-item">
+                  <div class="border-bottom align-self-center pb-2">
+                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
+                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                  </div>
+                </li>
+              </ul>
+              <p class="m-0 mt-2">Es el primer álbum de la banda en casi seis años, después de After Laughter (2017). “Desde el primer día, Bloc
+                Party fue la referencia número uno porque había tanta urgencia en su sonido que era diferente al fast
+                punk o al pop punk. o similares, un fuerte muro de sonido de bandas emo que estaban sucediendo a
+                principios de la década de 2000”.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="shop.html" class="btn btn-lg btn-secondary align-self-center rounded-0 mt-1">Ver más
+        discos</a>
+    </div>
+  </section>
+  <!--Cards w/album -->
+
 
   <div class="container" id="seccion-1">
     <div class="row">
