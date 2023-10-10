@@ -60,10 +60,14 @@
       </h1>
 
       <p>
+        Mi mensaje:  
+        <?php echo empty($mensaje) ? "Ninguno": $mensaje ?>
+      </p>
+
+      <p>
         Mis estilos musicales favoritos son:  
         <?php echo empty($generosSeleccionados) ? "Ninguno": $generosSeleccionados ?>
       </p>
-
 
       <p>
         <?php echo $feedback ?>
