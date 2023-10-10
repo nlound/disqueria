@@ -3,7 +3,7 @@
 
 <head>
   <?php include '_inc/header.php'; ?>
-  <title>Disquería</title>
+  <title>Rkive Records</title>
 </head>
 
 <body>
@@ -109,12 +109,13 @@
 
 
 
-  <div class="container" id="seccion-4">
+  <!--Inicio - galeria de fotos -->
+  <div class="container mb-5" id="seccionGaleria">
     <div class="row">
-      <h2>El local</h2>
-      <p>Nuestro local es un refugio de verdad para los que somos fanáticos de la música en formato analógico. En el
-        '80, un tipo re apasionado por los vinilos lo fundó con la idea de compartir su amor por la música con la gente
-        del barrio, y mirá que seguimos a full con esa dedicación musical a través de los años.</p>
+      <h2 class="text-center">Nuestro local</h2>
+      <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato analógico. Somos muy
+        apasionados por los vinilos y fundamos este espacio con la idea de compartir el amor por la música con la gente
+        del barrio, y seguimos a full con esa dedicación musical a través de los años.</p>
       <p>Las imágenes te van a llevar a recorrer las estanterías llenas de discos de vinilo, los rincones re copados
         donde nos juntamos los fanáticos de la música, y las sesiones de escucha que armamos y que han hecho que se
         forjen lazos musicales y amistades que duran toda la vida. Vas a ver cómo fuimos cuidando esa tradición musical
@@ -133,6 +134,35 @@
       ?>
     </div>
   </div>
+
+  <!--Inicio - formulario de contacto -->
+  <div class="container" id="seccionFormulario">
+
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <h2 class="text-center">No te pierdas nada</h2>
+        <p>Completá este formulario con tus datos y seleccioná los géneros musicales que mas te gustan para que podamos
+          enviarte, todos los meses, las novedades que tenemos.</p>
+
+        <form action="suscripcion.php" method="POST">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <input type="submit" value="Subscribirse" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </div>
+
 
   <?php include '_inc/footer.php'; ?>
 </body>
