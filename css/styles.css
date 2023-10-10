@@ -35,6 +35,10 @@
     width: 1px;
 }
 
+h1{
+    margin: 0;
+}
+
 @media screen and (min-width: 769px) {
     .only-mobile {
         display: none;
@@ -47,9 +51,12 @@
     }
 }
 
-.icono-disco,
-.rr-logo {
+.icono-disco{
     width: 20px;
+}
+
+.rr-logo{
+    width: 100px
 }
 
     .hero-src {
@@ -140,4 +147,8 @@
 
 .card-shop {
     min-height: 230px;
+}
+
+.highlight {
+    font-weight: bold;
 }
