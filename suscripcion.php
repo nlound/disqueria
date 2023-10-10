@@ -61,7 +61,7 @@
 
       <p>
         Mi mensaje:  
-        <?php echo $mensaje ?>
+        <?php echo empty($mensaje) ? "Ninguno": $mensaje ?>
       </p>
 
       <p>
