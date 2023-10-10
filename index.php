@@ -106,7 +106,8 @@
           <div class="col-md-5">
             <div class="card-body">
               <h5 class="card-title">1989 (Taylor's Version) por Taylor Swift</h5>
-              <p class="card-text">Es el próximo cuarto álbum de estudio regrabado de la cantautora estadounidense Taylor
+              <p class="card-text">Es el próximo cuarto álbum de estudio regrabado de la cantautora estadounidense
+                Taylor
                 Swift, será lanzado el 27 de octubre de 2023 a través de Republic Records. Es una regrabación de su
                 quinto álbum de estudio 1989 (2014) y sigue la contramedida de Swift contra el cambio de propiedad de
                 los másteres de sus primeros seis álbumes musicales. La cantante anunció el lanzamiento el día 9 de
@@ -181,7 +182,7 @@
           </div>
           <div class="album-card card rounded-0 mb-3">
             <img src="images/cards/sinister-bs.jpg" class="card-img-top rounded-0 img-album-covers"
-              alt="Bolsa de café Catalina">
+              alt="Tapa de Sinister de Belle and Sebastian">
             <div class="card-shop align-items-center justify-content-center p-4">
               <h4 class="h5 text-uppercase text-center pb-2">If you're feeling sinister</h4>
               <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
@@ -203,7 +204,7 @@
           </div>
           <div class="album-card card rounded-0 mb-3">
             <img src="images/cards/thisiswhy-paramore.jpeg" class="card-img-top rounded-0 img-album-covers"
-              alt="Bolsa de café Etiopía">
+              alt="Tapa de This is Why de Paramore">
             <div class="card-shop align-items-center justify-content-center p-4">
               <h4 class="h5 text-uppercase text-center pb-2">This is <br> why</h4>
               <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
@@ -235,30 +236,32 @@
 
   <!--Inicio - galeria de fotos -->
   <section class="galeria">
-  <div class="container mb-5 py-5" id="seccionGaleria">
-    <div class="row">
-      <h2 class="text-center">Nuestro local</h2>
-      <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato analógico. Somos muy
-        apasionados por los vinilos y fundamos este espacio con la idea de compartir el amor por la música con la gente
-        del barrio, y seguimos a full con esa dedicación musical a través de los años.</p>
-      <p>Las imágenes te van a llevar a recorrer las estanterías llenas de discos de vinilo, los rincones re copados
-        donde nos juntamos los fanáticos de la música, y las sesiones de escucha que armamos y que han hecho que se
-        forjen lazos musicales y amistades que duran toda la vida. Vas a ver cómo fuimos cuidando esa tradición musical
-        durante décadas y cómo nos hicimos parte de la movida musical del barrio.</p>
-      <?php
-      foreach ($fotosLocal as $k => $imagen) {
-        ?>
-        <div class="col-12 col-md-3 col-lg-2">
-          <div class="card">
-            <img src="images/<?php echo $imagen['imagen'] ?>" class="card-img-top" alt="<?php echo $imagen['alt'] ?>"
-              class="galeria-local">
-          </div>
-        </div>
+    <div class="container mb-5 py-5" id="seccionGaleria">
+      <div class="row">
+        <h2 class="text-center">Nuestro local</h2>
+        <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato analógico. Somos muy
+          apasionados por los vinilos y fundamos este espacio con la idea de compartir el amor por la música con la
+          gente
+          del barrio, y seguimos a full con esa dedicación musical a través de los años.</p>
+        <p>Las imágenes te van a llevar a recorrer las estanterías llenas de discos de vinilo, los rincones re copados
+          donde nos juntamos los fanáticos de la música, y las sesiones de escucha que armamos y que han hecho que se
+          forjen lazos musicales y amistades que duran toda la vida. Vas a ver cómo fuimos cuidando esa tradición
+          musical
+          durante décadas y cómo nos hicimos parte de la movida musical del barrio.</p>
         <?php
-      }
-      ?>
+        foreach ($fotosLocal as $k => $imagen) {
+          ?>
+          <div class="col-12 col-md-6 col-lg-3 m-0 p-1 border-0">
+            <div class="card">
+              <img src="images/<?php echo $imagen['imagen'] ?>" class="card-img-top rounded-0 border-0"
+                alt="<?php echo $imagen['alt'] ?>" class="galeria-local">
+            </div>
+          </div>
+          <?php
+        }
+        ?>
+      </div>
     </div>
-  </div>
   </section>
 
 
@@ -284,7 +287,56 @@
             <label for="email" class="form-label">Mail</label>
             <input type="email" class="form-control" id="email" name="email" required>
           </div>
-          <input type="submit" value="Subscribirse" class="btn btn-primary">
+
+
+          <div class="mb-3">
+            <div class="row">
+              <div class="col-6">
+                <label for="mensaje" class="form-label">Tu mensaje <span
+                    class="text-muted">(Opcional)</span></label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+              </div>
+
+              <div class="col-6">
+                <p>Seleccioná los generos que mas te interesen </p>
+
+                <div class="row">
+                  <div class="col-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="rock" id="rock">
+                      <label class="form-check-label" for="rock">
+                        Rock
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="pop" id="pop">
+                      <label class="form-check-label" for="pop">
+                        Pop
+                      </label>
+                    </div>
+
+                  </div>
+                  <div class="col-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="metal" id="metal">
+                      <label class="form-check-label" for="metal">
+                        Metal
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="kpop" id="kpop">
+                      <label class="form-check-label" for="kpop">
+                        K-Pop
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="submit" value="Subscribirse" class="btn btn-primary mt-3">
+          </div>
         </form>
       </div>
     </div>
