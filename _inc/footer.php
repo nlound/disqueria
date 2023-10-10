@@ -1,7 +1,7 @@
 <footer class="bg-dark px-3 py-4">
   <div class="container">
   <h3 class="ps-2 pb-3 m-0 text-white">Gracias por elegirnos &#128153;</h3>
-        <hr style="color: white;">
+        <hr color="text-white">
 
         <div class="footer-info">
             <div class="container mb-3">
