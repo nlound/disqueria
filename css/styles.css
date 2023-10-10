@@ -81,8 +81,16 @@
 .examples-store {
     display: flex;
     flex-direction: column;
-}
+  }
 
+  .disco-del-mes{
+    background-color: #829cb5;
+  }
+
+  .galeria{
+    background-color: #F0E65B;
+  }
+  
 .album-cards-container {
     display: flex;
     flex-direction: column;
