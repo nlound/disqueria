@@ -90,10 +90,41 @@
   </div>
   <!-- Hero -->
 
+  <!-- Disco del mes -->
+
+  <section class="my-5">
+    <div id="shop" class="examples-store container">
+      <div>
+        <h3 class="m-0 pb-3 text-center">Disco del mes</h3>
+      </div>
+      <div class="card mb-3 border-0">
+        <div class="row g-0 flex justify-content-center">
+          <div class="col-md-4">
+            <img src="images/disco-mes/1989-ts.jpg" class="img-fluid rounded-start"
+              alt="Tapa del vinilo de 1989 de Taylor Swift">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title">1989 (Taylor's Version) por Taylor Swift</h5>
+              <p class="card-text">Es el próximo cuarto álbum de estudio regrabado de la cantautora estadounidense Taylor
+                Swift, será lanzado el 27 de octubre de 2023 a través de Republic Records. Es una regrabación de su
+                quinto álbum de estudio 1989 (2014) y sigue la contramedida de Swift contra el cambio de propiedad de
+                los másteres de sus primeros seis álbumes musicales. La cantante anunció el lanzamiento el día 9 de
+                agosto de 2023 en Los Ángeles, durante el final de la primera etapa de su sexta gira musical The Eras
+                Tour por Estados Unidos, que va a continuar a partir del 9 de Diciembre en Buenos Aires, Argentina.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Disco del mes -->
 
   <!--Cards w/album -->
-  <section>
-    <div id="shop" class="examples-store container my-5">
+  <section class="disco-del-mes py-5">
+    <div id="shop" class="examples-store container">
       <h3 class="m-0 pb-3 text-center">¿Qué vamos a escuchar hoy?</h3>
       <p class="text-center">¡Date un paseo por nuestro e-shop! Renovado para que en cuestión de minutos completes tu
         compra <br> y
@@ -174,7 +205,7 @@
             <img src="images/cards/thisiswhy-paramore.jpeg" class="card-img-top rounded-0 img-album-covers"
               alt="Bolsa de café Etiopía">
             <div class="card-shop align-items-center justify-content-center p-4">
-              <h4 class="h5 text-uppercase text-center pb-2">This is why</h4>
+              <h4 class="h5 text-uppercase text-center pb-2">This is <br> why</h4>
               <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
                 <li class="list-group-item">Paramore</span></li>
                 <li class="list-group-item">$13.100</li>
@@ -186,7 +217,8 @@
                   </div>
                 </li>
               </ul>
-              <p class="m-0 mt-2">Es el primer álbum de la banda en casi seis años, después de After Laughter (2017). “Desde el primer día, Bloc
+              <p class="m-0 mt-2">Es el primer álbum de la banda en casi seis años, después de After Laughter (2017).
+                “Desde el primer día, Bloc
                 Party fue la referencia número uno porque había tanta urgencia en su sonido que era diferente al fast
                 punk o al pop punk. o similares, un fuerte muro de sonido de bandas emo que estaban sucediendo a
                 principios de la década de 2000”.</p>
@@ -201,36 +233,9 @@
   </section>
   <!--Cards w/album -->
 
-
-  <div class="container" id="seccion-1">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-    </div>
-  </div>
-
-
-  <div class="container" id="seccion-2">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-    </div>
-  </div>
-
-  <div class="container" id="seccion-3">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-      <div class="col-12 col-md-6 col-lg-4">COLUMNA</div>
-    </div>
-  </div>
-
-
-
   <!--Inicio - galeria de fotos -->
-  <div class="container mb-5" id="seccionGaleria">
+  <section class="galeria">
+  <div class="container mb-5 py-5" id="seccionGaleria">
     <div class="row">
       <h2 class="text-center">Nuestro local</h2>
       <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato analógico. Somos muy
@@ -254,6 +259,8 @@
       ?>
     </div>
   </div>
+  </section>
+
 
   <!--Inicio - formulario de contacto -->
   <div class="container" id="seccionFormulario">
