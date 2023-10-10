@@ -85,7 +85,7 @@
 
   <!-- Hero -->
   <div id="hero" class="hero setup-background hero-src">
-    <h2 class="display-3 fw-bold">El archivo de tus momentos</h2>
+    <h2 class="display-3 fw-bold">El archivo de tus sonidos</h2>
     <p>Discos, casettes y vinilos de tus artistas favoritos, al mejor precio y con nuestro sello de atención
       personalizada</p>
     <a href="#shop" class="btn btn-light btn-lg rounded-0 align-self-center">Comprar mi música</a>
