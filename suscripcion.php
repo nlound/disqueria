@@ -1,3 +1,6 @@
+<?php $title = "Rkive Records - Suscripción"; ?>
+<?php include '_inc/datos.php'; ?>
+<?php include '_inc/discos.php'; ?>
 <?php include '_inc/header.php'; ?>
 
 <body>
@@ -30,7 +33,7 @@
       $feedback = "¿Te olvidaste de completar algún campo?";
       $linkEscape = "<button onclick='history.back()' class='btn btn-danger'>Volver</button>";
     } else {
-      $titulo = "Muchas gracias por suscribirte 😄";
+      $titulo = "Muchas gracias por suscribirte &#128512;";
       $feedback = "¡Hola " . $nombre . " " . $apellido . "! Te mandamos un mail a tu correo (" . $email . "),";
       $recordatorio = "confirmá tu suscripcion para recibir promociones y novedades.";
 
@@ -54,7 +57,8 @@
 
   <div class="container py-4">
     <div class="row">
-      <img src="images/logo-rkive.png" alt="Logo de Rkive Records" style="max-width: 200px">
+  <div class="col">
+    <img src="images/logo-rkive-big.png" alt="Logo de Rkive Records">
       <h1 class="my-4">
         <?php echo $titulo ?>
       </h1>
@@ -71,7 +75,7 @@
 
       <p>
         <?php echo $feedback ?>
-        <span style="font-weight: bold">
+        <span class="font-weight-bold">
         <?php echo $recordatorio ?>
       </span>
       </p>
@@ -80,7 +84,8 @@
       <div class="mb-3">
         <?php echo $linkEscape ?>
       </div>
-    </div>
+      </div>
+      </div>
   </div>
 </body>
 

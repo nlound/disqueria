@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <?php include '_inc/header.php'; ?>
-  <title>Rkive Records</title>
-</head>
+<?php $title = "Rkive Records"; ?>
+<?php include '_inc/datos.php'; ?>
+<?php include '_inc/discos.php'; ?>
+<?php include '_inc/header.php'; ?>
 
 <body>
-  <?php include '_inc/datos.php'; ?>
-  <?php include '_inc/discos.php'; ?>
 
   <div class="promo-block">
     <img src="images/icono-delivery.png" alt="Camión de delivery" class="me-3">
@@ -21,7 +16,7 @@
       <a href="#hero" class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
         <h1>
           <span class="hidden--visually">Rkive Records</span>
-          <img class="rr-logo py-2" src="images/logo-rkive.png" alt="Logo de Rkive Records">
+          <img class="rr-logo py-2" src="images/logo-rkive-small.png" alt="Logo de Rkive Records">
         </h1>
       </a>
       <nav class="">
@@ -53,7 +48,7 @@
         <a class="navbar-brand no-pm" href="#hero">
           <h1>
             <span class="hidden--visually">Rkive Records</span>
-            <img class="rr-logo py-2" src="images/logo-rkive.png" alt="Logo de Rkive Records">
+            <img class="rr-logo py-2" src="images/logo-rkive-small.png" alt="Logo de Rkive Records">
           </h1>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -155,7 +150,7 @@
                   </li>
                   <li class="list-group-item">
                     <div class="border-bottom align-self-center pb-2">
-                      <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                      <span class="small"> <i class="bi me-1 bi-star-fill"></i><i
                           class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
                           class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
                     </div>
@@ -215,8 +210,8 @@
 
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
-        <h2 class="text-center">No te pierdas nuestra promociones 😄</h2>
-        <p>Completá este formulario con tus datos, seleccioná tus géneros musicales favoritos y preparate para recibir las mejores promociones de tu amigo Rkive Records 🫂</p>
+        <h2 class="text-center">No te pierdas nuestra promociones &#128512;</h2>
+        <p>Completá este formulario con tus datos, seleccioná tus géneros musicales favoritos y preparate para recibir las mejores promociones de tu amigo Rkive Records &#129730;</p>
 
         <form action="suscripcion.php" method="POST">
           <div class="mb-3">
@@ -286,7 +281,7 @@
     </div>
   </div>
 
-
+  
   <?php include '_inc/footer.php'; ?>
 </body>
 
