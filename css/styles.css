@@ -1,53 +1,135 @@
 @keyframes promoBlockIcon {
-  0% {
-      opacity: 0;
-      transform: translateX(-50px);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
 
-  100% {
-      opacity: 1;
-      transform: translateX(0);
-  }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .promo-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 0;
-  color: white;
-  background-color: #C84D86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    color: white;
+    background-color: #c84d86;
 }
 
 .promo-block img {
-  animation: promoBlockIcon 1s ease-in 0s 1 normal forwards;
+    animation: promoBlockIcon 1s ease-in 0s 1 normal forwards;
 }
 
 .hidden--visually {
-  border: 0;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 @media screen and (min-width: 769px) {
-  .only-mobile {
-      display: none;
-  }
+    .only-mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 769px) {
-  .only-desktop {
-      display: none;
-  }
+    .only-desktop {
+        display: none;
+    }
 }
 
 .icono-disco,
 .rr-logo {
-  width: 20px;
+    width: 20px;
+}
+
+    .hero-src {
+        background-image: url("../images/hero/hero-desktop.jpeg");
+    }
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.setup-background {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 769px) {
+    .setup-background {
+        height: 60vh;
+    }
+}
+
+.examples-store {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-cards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+    .album-cards-container {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .album-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .album-cards {
+        margin-bottom: 0;
+    }
+
+    .album-card {
+        flex-basis: 50%;
+    }
+    
+    .album-card:not(:last-child){
+      margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .album-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .album-cards .card {
+        max-width: 270px;
+    }
+}
+
+.card-shop {
+    display: flex;
+    flex-direction: column;
+    min-height: 240px;
+}
+
+.card-shop {
+    min-height: 230px;
 }
