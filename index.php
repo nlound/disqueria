@@ -8,18 +8,20 @@
 
 <body>
   <?php include '_inc/datos.php'; ?>
+  <?php include '_inc/discos.php'; ?>
+
   <div class="promo-block">
     <img src="images/icono-delivery.png" alt="Camión de delivery" class="me-3">
     <p class="m-0 p-0">Envio gratis con tu comprar superior a $25.000</p>
   </div>
 
   <!--Header Desktop -->
-  <header class="py-3 only-desktop">
+  <header class="only-desktop">
     <div class="container d-flex flex-wrap justify-content-center align-items-center">
-      <a href="index.html" class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+      <a href="#hero" class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
         <h1>
           <span class="hidden--visually">Rkive Records</span>
-          <img class="rr-logo" src="images/rr-logo.png" alt="Logo de Rkive Records">
+          <img class="rr-logo py-2" src="images/logo-rkive.png" alt="Logo de Rkive Records">
         </h1>
       </a>
       <nav class="">
@@ -32,9 +34,10 @@
                   mi
                   disco</strong><img class="icono-disco id-inverted ms-2" src="images/icono-disco.png"
                   alt="Icono de disco"></a></li>
-            <li class="nav-item nav-bar-links"><a href="#about" class="nav-link link-secondary px-2">Rkive Records</a>
+            <li class="nav-item nav-bar-links"><a href="#galeria" class="nav-link link-secondary px-2">Rkive Records</a>
             </li>
-            <li class="nav-item nav-bar-links"><a href="#newsletter" class="nav-link link-secondary px-2">Newsletter</a>
+            <li class="nav-item nav-bar-links"><a href="#seccionFormulario"
+                class="nav-link link-secondary px-2">Newsletter</a>
             </li>
           </ul>
         </div>
@@ -47,10 +50,10 @@
   <header class="only-mobile">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand no-pm" href="index.html">
+        <a class="navbar-brand no-pm" href="#hero">
           <h1>
             <span class="hidden--visually">Rkive Records</span>
-            <img class="rr-logo" src="images/bc-logo.png" alt="Logo de Rkive Records">
+            <img class="rr-logo py-2" src="images/logo-rkive.png" alt="Logo de Rkive Records">
           </h1>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -63,15 +66,14 @@
               <a class="nav-link active" aria-current="page" href="#discoMes">Disco del Mes</a>
             </li>
             <li class="nav-item nav-bar-links"><a href="#store" class="nav-link link-body-emphasis px-2"><img
-                  class="icono-disco me-2" src="images/icono-disco.png" alt="Icono de disco"><strong>Comprar
-                  mi
+                  class="icono-disco me-2" src="images/icono-disco.png" alt="Icono de disco"><strong>Comprar mi
                   disco</strong><img class="icono-disco ms-2" src="images/icono-disco.png" alt="Icono de disco"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Rkive Records</a>
+              <a class="nav-link" href="#galeria">Rkive Records</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#newsletter">Newsletter</a>
+              <a class="nav-link" href="#seccionFormulario">Newsletter</a>
             </li>
           </ul>
 
@@ -82,7 +84,7 @@
   <!--Header Mobile-->
 
   <!-- Hero -->
-  <div class="hero setup-background hero-src">
+  <div id="hero" class="hero setup-background hero-src">
     <h2 class="display-3 fw-bold">El archivo de tus momentos</h2>
     <p>Discos, casettes y vinilos de tus artistas favoritos, al mejor precio y con nuestro sello de atención
       personalizada</p>
@@ -93,7 +95,7 @@
   <!-- Disco del mes -->
 
   <section class="my-5">
-    <div id="shop" class="examples-store container">
+    <div id="discoMes" class="examples-store container">
       <div>
         <h3 class="m-0 pb-3 text-center">Disco del mes</h3>
       </div>
@@ -125,7 +127,7 @@
 
   <!--Cards w/album -->
   <section class="disco-del-mes py-5">
-    <div id="shop" class="examples-store container">
+    <div id="store" class="examples-store container">
       <h3 class="m-0 pb-3 text-center">¿Qué vamos a escuchar hoy?</h3>
       <p class="text-center">¡Date un paseo por nuestro e-shop! Renovado para que en cuestión de minutos completes tu
         compra <br> y
@@ -133,98 +135,41 @@
         ofertas:</p>
       <div class="album-cards-container">
         <div class="album-cards">
-          <div class="album-card card rounded-0 mb-3">
-            <img src="images/cards/folklore-ts.jpeg" class="card-img-top rounded-0 img-album-covers"
-              alt="Tapa del disco Folklore de Taylor Swift">
-            <div class="card-shop align-items-center justify-content-center p-4">
-              <h4 class="h5 text-uppercase text-center pb-2">Folklore</h4>
-              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
-                <li class="list-group-item">Taylor Swift</span></li>
-                <li class="list-group-item">$12.000</li>
-                <li class="list-group-item">
-                  <div class="border-bottom align-self-center pb-2">
-                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
-                  </div>
-                </li>
-              </ul>
-              <p class="m-0 mt-2">Octavo álbum de estudio, se aparta de los sonidos mainstream y más comerciales de los
-                últimos trabajos de
-                la cantante y se destaca por melodías armónicas e introspectivas, una interpretación lírica más
-                trabajada y una utilización más consistente de la instrumentalización (principalmente piano, guitarra,
-                violín y batería).</p>
+
+          <?php
+          foreach ($fotosDiscos as $k => $disco) {
+            ?>
+            <div class="album-card card rounded-0 mb-3">
+              <img src="images/<?php echo $disco['disco'] ?>" class="card-img-top rounded-0 img-album-covers"
+                alt="<?php echo $disco['alt'] ?>">
+              <div class="card-shop align-items-center justify-content-center p-4">
+                <h4 class="h5 text-uppercase text-center pb-2">
+                  <?php echo $disco['titulo'] ?>
+                </h4>
+                <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
+                  <li class="list-group-item">
+                    <?php echo $disco['artista'] ?></span>
+                  </li>
+                  <li class="list-group-item">
+                    <?php echo $disco['precio'] ?>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="border-bottom align-self-center pb-2">
+                      <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
+                          class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
+                          class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </li>
+                </ul>
+                <p class="m-0 mt-2">
+                  <?php echo $disco['descripcion'] ?>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="album-card card rounded-0 mb-3">
-            <img src="images/cards/jitb-jhope.jpg" class="card-img-top rounded-0 img-album-covers"
-              alt="Tapa del disco Jack in the Box de J-Hope">
-            <div class="card-shop align-items-center justify-content-center p-4">
-              <h4 class="h5 text-uppercase text-center pb-2">Jack in the Box</h4>
-              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
-                <li class="list-group-item">J-Hope</span></li>
-                <li class="list-group-item">$15.700</li>
-                <li class="list-group-item">
-                  <div class="border-bottom align-self-center pb-2">
-                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
-                  </div>
-                </li>
-              </ul>
-              <p class="m-0 mt-2">Debut álbum del rapero surcoreano J-Hope cuyo concepto se basa en la historia de la
-                Caja de Pandora, se discuten
-                temáticas de pasión, ambición, humanidad, insguridad, sexualidad, éxito y ansiedad sobre el futuro.
-                Principalmente
-                influenciado por sonidos de old-school hip-hop, el album también contiene sonidos de pop, grunge y R&B.
-              </p>
-            </div>
-          </div>
-          <div class="album-card card rounded-0 mb-3">
-            <img src="images/cards/sinister-bs.jpg" class="card-img-top rounded-0 img-album-covers"
-              alt="Tapa de Sinister de Belle and Sebastian">
-            <div class="card-shop align-items-center justify-content-center p-4">
-              <h4 class="h5 text-uppercase text-center pb-2">If you're feeling sinister</h4>
-              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
-                <li class="list-group-item">Belle and Sebastian</span></li>
-                <li class="list-group-item">$19.200</li>
-                <li class="list-group-item">
-                  <div class="border-bottom align-self-center pb-2">
-                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
-                  </div>
-                </li>
-              </ul>
-              <p class="m-0 mt-2">El álbum es ampliamente considerado como un clásico del género indie pop, y ha
-                obtenido un culto entre los aficionados del grupo siendo el punto más alto de la carrera de Belle and
-                Sebastian. El líder del grupo, Stuart Murdoch, ha declarado en entrevistas que este es probablemente su
-                mejor colección de canciones.</p>
-            </div>
-          </div>
-          <div class="album-card card rounded-0 mb-3">
-            <img src="images/cards/thisiswhy-paramore.jpeg" class="card-img-top rounded-0 img-album-covers"
-              alt="Tapa de This is Why de Paramore">
-            <div class="card-shop align-items-center justify-content-center p-4">
-              <h4 class="h5 text-uppercase text-center pb-2">This is <br> why</h4>
-              <ul class="no-pm text-center p-0 py-2 mb-0 border-top">
-                <li class="list-group-item">Paramore</span></li>
-                <li class="list-group-item">$13.100</li>
-                <li class="list-group-item">
-                  <div class="border-bottom align-self-center pb-2">
-                    <span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
-                        class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
-                  </div>
-                </li>
-              </ul>
-              <p class="m-0 mt-2">Es el primer álbum de la banda en casi seis años, después de After Laughter (2017).
-                “Desde el primer día, Bloc
-                Party fue la referencia número uno porque había tanta urgencia en su sonido que era diferente al fast
-                punk o al pop punk. o similares, un fuerte muro de sonido de bandas emo que estaban sucediendo a
-                principios de la década de 2000”.</p>
-            </div>
-          </div>
+
+            <?php
+          }
+          ?>
         </div>
       </div>
 
@@ -235,19 +180,19 @@
   <!--Cards w/album -->
 
   <!--Inicio - galeria de fotos -->
-  <section class="galeria">
+  <section id="galeria" class="galeria">
     <div class="container mb-5 py-5" id="seccionGaleria">
-      <div class="row">
-        <h2 class="text-center">Nuestro local</h2>
-        <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato analógico. Somos muy
+      <div class="row text-center">
+        <h2 class="m-0 pb-3 text-center">Rkive Records: nuestro local</h2>
+        <p>Creamos un refugio de verdad para los que somos fanáticos de la música en formato <span class="highlight">
+            analógico</span>. Somos muy
           apasionados por los vinilos y fundamos este espacio con la idea de compartir el amor por la música con la
           gente
           del barrio, y seguimos a full con esa dedicación musical a través de los años.</p>
-        <p>Las imágenes te van a llevar a recorrer las estanterías llenas de discos de vinilo, los rincones re copados
-          donde nos juntamos los fanáticos de la música, y las sesiones de escucha que armamos y que han hecho que se
-          forjen lazos musicales y amistades que duran toda la vida. Vas a ver cómo fuimos cuidando esa tradición
-          musical
-          durante décadas y cómo nos hicimos parte de la movida musical del barrio.</p>
+        <p>Vení a buscar tu vinilo favorito entre nuestras bandejas, disfrutar alguno de nuestros eventos de literatura
+          y música o venir a
+          las jam de jazz que organizamos todos los meses, <span class="highlight">¿conocés nuestro espacio?</span> Te
+          mostramos un poco:</p>
         <?php
         foreach ($fotosLocal as $k => $imagen) {
           ?>
@@ -292,8 +237,7 @@
           <div class="mb-3">
             <div class="row">
               <div class="col-6">
-                <label for="mensaje" class="form-label">Tu mensaje <span
-                    class="text-muted">(Opcional)</span></label>
+                <label for="mensaje" class="form-label">Tu mensaje <span class="text-muted">(Opcional)</span></label>
                 <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
               </div>
 
