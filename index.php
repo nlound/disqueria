@@ -215,21 +215,20 @@
 
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
-        <h2 class="text-center">No te pierdas nada</h2>
-        <p>Completá este formulario con tus datos y seleccioná los géneros musicales que mas te gustan para que podamos
-          enviarte, todos los meses, las novedades que tenemos.</p>
+        <h2 class="text-center">No te pierdas nuestra promociones 😄</h2>
+        <p>Completá este formulario con tus datos, seleccioná tus géneros musicales favoritos y preparate para recibir las mejores promociones de tu amigo Rkive Records 🫂</p>
 
         <form action="suscripcion.php" method="POST">
           <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
+            <label for="nombre" class="form-label">Nombre:</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required>
           </div>
           <div class="mb-3">
-            <label for="apellido" class="form-label">Apellido</label>
+            <label for="apellido" class="form-label">Apellido:</label>
             <input type="text" class="form-control" id="apellido" name="apellido" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Mail</label>
+            <label for="email" class="form-label">E-mail:</label>
             <input type="email" class="form-control" id="email" name="email" required>
           </div>
 
@@ -242,7 +241,7 @@
               </div>
 
               <div class="col-6">
-                <p>Seleccioná los generos que mas te interesen </p>
+                <p>¿Cuáles son tus géneros favoritos?</p>
 
                 <div class="row">
                   <div class="col-3">
@@ -277,9 +276,10 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
-            <input type="submit" value="Subscribirse" class="btn btn-primary mt-3">
+            <input type="submit" value="Subscribirse" class="btn btn-dark mt-3">
           </div>
         </form>
       </div>
