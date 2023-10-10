@@ -173,7 +173,7 @@
         </div>
       </div>
 
-      <a href="shop.html" class="btn btn-lg btn-secondary align-self-center rounded-0 mt-1">Ver más
+      <a href="#" class="btn btn-lg btn-secondary align-self-center rounded-0 mt-1">Ver más
         discos</a>
     </div>
   </section>
