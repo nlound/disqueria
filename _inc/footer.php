@@ -1,7 +1,7 @@
 <footer class="bg-dark px-3 py-4">
   <div class="container">
-  <h3 class="ps-2 pb-3 m-0 text-white">Gracias por elegirnos 🩵</h3>
-        <hr style="color: white;">
+  <h3 class="ps-2 pb-3 m-0 text-white">Gracias por elegirnos &#128153;</h3>
+        <hr color="text-white">
 
         <div class="footer-info">
             <div class="container mb-3">
@@ -50,9 +50,9 @@
                     </div>
                 </div>
             </div>
-            <hr style="color: white;">
+            <hr class="text-white">
             <div class="container text-light pt-3">
-                <h4 class="m-0 p-0 pb-2">Diseñado y programado con 💜 por</h4>
+                <h4 class="m-0 p-0 pb-2">Diseñado y programado con 	&#128156; por</h4>
                 <ul class="ps-0 ms-0">
                     <li class="text-danger">Nicolás Lound</li>
                     <li class="text-primary">Florencia Vilchez</li>
