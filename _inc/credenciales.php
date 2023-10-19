@@ -1,0 +1,8 @@
+<?php
+
+$host = "DIRECCION DEL HOST";
+$user = "USUARIO DE LA BASE DE DATOS";
+$pass = "CONTRASEÑA DE LA BASE DE DATOS";
+$db = "NOMBRE DE LA BASE DE DATOS";
+
+?>
