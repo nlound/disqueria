@@ -3,5 +3,11 @@ Repositorio para el manejo de una web de una disquería utilizando PHP (Programa
 
 Completar los datos de conexión a la base de datos en el archivo
   ```
-    _inc/conexion.php
+    _inc/credenciales.php
+  ```
+
+Dump de la base de datos en
+
+  ```
+    dump/disqueria.sql
   ```
