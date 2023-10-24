@@ -1,6 +1,6 @@
 <?php $title = "Rkive Records"; ?>
+<?php include '_inc/conexion.php'; ?>
 <?php include '_inc/datos.php'; ?>
-<?php include '_inc/discos.php'; ?>
 <?php include '_inc/header.php'; ?>
 
 <body>
@@ -132,6 +132,7 @@
         <div class="album-cards">
 
           <?php
+          include '_inc/discos.php';
           foreach ($fotosDiscos as $k => $disco) {
             ?>
             <div class="album-card card rounded-0 mb-3">
@@ -150,9 +151,9 @@
                   </li>
                   <li class="list-group-item">
                     <div class="border-bottom align-self-center pb-2">
-                      <span class="small"> <i class="bi me-1 bi-star-fill"></i><i
+                      <span class="small"> <i class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
                           class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i
-                          class="bi me-1 bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                          class="bi bi-star-fill"></i></span>
                     </div>
                   </li>
                 </ul>
@@ -188,13 +189,15 @@
           y música o venir a
           las jam de jazz que organizamos todos los meses, <span class="highlight">¿conocés nuestro espacio?</span> Te
           mostramos un poco:</p>
+
         <?php
+        include '_inc/galeria-fotos.php';
         foreach ($fotosLocal as $k => $imagen) {
           ?>
           <div class="col-12 col-md-6 col-lg-3 m-0 p-1 border-0">
             <div class="card">
-              <img src="images/<?php echo $imagen['imagen'] ?>" class="card-img-top rounded-0 border-0"
-                alt="<?php echo $imagen['alt'] ?>" class="galeria-local">
+              <img src="images/<?php echo $imagen['ruta'] ?>" class="card-img-top rounded-0 border-0"
+                alt="<?php echo $imagen['descripcion'] ?>" class="galeria-local">
             </div>
           </div>
           <?php
@@ -211,7 +214,8 @@
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
         <h2 class="text-center">No te pierdas nuestra promociones &#128512;</h2>
-        <p>Completá este formulario con tus datos, seleccioná tus géneros musicales favoritos y preparate para recibir las mejores promociones de tu amigo Rkive Records &#129730;</p>
+        <p>Completá este formulario con tus datos, seleccioná tus géneros musicales favoritos y preparate para recibir
+          las mejores promociones de tu amigo Rkive Records &#129730;</p>
 
         <form action="suscripcion.php" method="POST">
           <div class="mb-3">
@@ -281,7 +285,7 @@
     </div>
   </div>
 
-  
+
   <?php include '_inc/footer.php'; ?>
 </body>
 
